@@ -158,7 +158,7 @@ const PROJECTS: Project[] = [
       'Custom image gallery for each authenticated user.',
     ],
     link: 'https://github.com/Reebaik/AI-image-generation-website',
-    demo: 'https://ai-image-generation-website-ten.vercel.app', // Update with real link
+    demo: 'ai-image-generation-website-brown.vercel.app', // Update with real link
   },
   {
     title: 'ATHENA — IoT-Based Smart Security System',
