@@ -648,7 +648,7 @@ export default function App() {
                   <div className="project-header-actions" style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
                     {p.demo && (
                        <a 
-                         href={p.demo} 
+                        href={p.demo.startsWith('http') ? p.demo : `https://${p.demo}`}
                          target="_blank" 
                          rel="noreferrer" 
                          className="btn primary small"
